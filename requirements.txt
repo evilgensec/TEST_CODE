@@ -1,0 +1,19 @@
+# Vulnerable Requirements (Triggers Dependency Auditor)
+
+# Django 2.2.x has known high-severity CVEs (e.g., SQL injection in GIS)
+Django==2.2.0
+
+# Requests 2.19.1 has vulnerabilities related to auth stripping
+requests==2.19.1
+
+# Flask 0.12 is ancient and has multiple security issues
+Flask==0.12
+
+# PyYAML < 5.4 is vulnerable to arbitrary code execution (YAML deserialization)
+PyYAML==5.3
+
+# Pillow < 8.1.1 has buffer overflow vulnerabilities
+Pillow==8.1.0
+
+# Werkzeug < 2.2.3 has vulnerability related to debugger console
+Werkzeug==0.15.5
