@@ -1,0 +1,11 @@
+{
+  "name": "dependency-vulnerability-test",
+  "version": "1.0.0",
+  "description": "Test case repository for dependency vulnerability and reachability checks",
+  "author": "Security Testing Team",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
